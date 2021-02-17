@@ -9,6 +9,7 @@ public class StartBase {
       Scanner scn = new Scanner(System.in);
       System.out.println(" \n\t 1.Add Phonebook entry \n\t 2.get name \n\t 3.exit \n\t ");
       int n = scn.nextInt();
+
       switch (n) {
         case 1:
           System.out.println("\tenter PhoneNumber and name ");
